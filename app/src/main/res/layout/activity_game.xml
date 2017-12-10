@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q4"
+    android:orientation="vertical"
+    tools:context="com.example.user.taiwaintourplay.game">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="0.63" />
+
+    <TextView
+        android:id="@+id/tv_source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.63"
+        android:text="source"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_q"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.38"
+        android:text="question"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.18">
+
+        <Button
+            android:id="@+id/btn_A"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:background="@drawable/q8"
+            android:text="A" />
+
+        <Button
+            android:id="@+id/btn_B"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:background="@drawable/q7"
+            android:text="B" />
+
+        <Button
+            android:id="@+id/btn_C"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:background="@drawable/q6"
+            android:text="C" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="46dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:text="答對題數:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:text="0"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
